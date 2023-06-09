@@ -7,26 +7,26 @@
 }
 body{
     font-family: system-ui;
-    background-color:beige;
-    z-index: 0;    
+    background-color:white;
+    z-index: 0; 
+    padding: 0;
+    margin: 0;   
 }
 
-.class{
-  background-color: gray;
+/* .class{
+  background-color:whitesmoke;
   background-size: cover;
   padding: 100px 0 100px;
-}
- .banner{
-  width: 100%;
-  height: 620px;
-  
-  background-position: center;
+} */
+ /* .banner{
+ 
+  background-position:center;
   background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;
   
- } 
- .banner-overlay{
+ }  */
+ /* .banner-overlay{
   position: absolute;
     height: 620px;
     width: 100%;
@@ -36,5 +36,41 @@ body{
    flex-direction: column;
    justify-content: center;
    align-items: center;
- }
+   
+  } */
+  #bannerimage{
+    background-position: center;
+    background-image: url(/images/cleaners.jpg);
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+    padding: 100px 0 100px;
+    opacity: 0.9;
+  }
+.tab-nav{
+  height: 50px;
+  padding: 0px 20px;
+  position: relative;
+  line-height: 50px;
+  letter-spacing: 1px;
+
+}
+.tab-nav a{
+  display: inline-block;
+  padding: 0px 5px;
+}
+.content{
+  padding: 5px 20px;
+  /* display: none; */
+}
+.active{
+  background-color: #000000;
+  
+}
+.bg-gray-200{
+  background-color:#ddd;
+  height: 100%;
+  width: 100%;
+  
+}
   
