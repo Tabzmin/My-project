@@ -117,4 +117,7 @@ body{
     display: none;
   }
 }
+hr{
+  border: 1px;
+}
   
